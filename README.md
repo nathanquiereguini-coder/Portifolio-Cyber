@@ -27,6 +27,14 @@ Cada relatório segue uma metodologia consistente, incluindo:
 | 3 | [Comprometimento do U.S. Department of the Treasury (2024)](reports/lab3-us-treasury-2024.md) | Governo / Financeiro | APT vinculado ao Estado chinês (via BeyondTrust) | Estratégica/Operacional | CLEAR |
 | 4 | [Silver Dragon (APT41) contra entidades governamentais (2026)](reports/lab4-silver-dragon-apt41-2026.md) | Governo (Europa e Sudeste Asiático) | Silver Dragon (cluster vinculado ao APT41) | Operacional/Tática | CLEAR |
 
+## Projetos Práticos de CTI
+
+| # | Projeto | Foco |
+|---|---|---|
+| 1 | [Threat Hunting — Adversary Infrastructure](projects/01-threat-hunting-adversary-infrastructure/README.md) | Infraestrutura adversária, C2, DNS, certificados, PCAP e IOCs |
+| 2 | [Threat Attribution Assessment](projects/02-threat-attribution-assessment/README.md) | Atribuição, hipóteses, evidências e confidence assessment |
+| 3 | [Data Science aplicado a CTI](projects/03-data-science-aplicado-a-cti/README.md) | WHOIS, DNS, OSINT, automação, normalização, JSON e pipelines |
+
 ## Metodologia e Frameworks Utilizados
 
 - **Ciclo de Inteligência** — planejamento, coleta, processamento, análise, produção/disseminação e feedback
@@ -39,8 +47,6 @@ Cada relatório segue uma metodologia consistente, incluindo:
 
 ## Sobre
 
-Relatórios elaborados como parte de estudos práticos em Cyber Threat Intelligence, inspirados no módulo
-*"Operacionalização do Ciclo de Inteligência"* (ADINT School).
+Relatórios e projetos elaborados como parte de estudos práticos em Cyber Threat Intelligence, incluindo conteúdos da formação ADINT School.
 
-**Aviso legal:** todo o conteúdo é baseado exclusivamente em fontes públicas já divulgadas por veículos de
-imprensa, empresas de segurança e órgãos governamentais, com fins educacionais e de portfólio profissional.
+**Aviso legal:** todo o conteúdo operacional do portfólio deve ser baseado em fontes públicas, ambientes de laboratório ou ativos explicitamente autorizados, com fins educacionais e profissionais. Não incluir informações privilegiadas, credenciais, tokens ou dados sensíveis.

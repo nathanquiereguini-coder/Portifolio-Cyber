@@ -1,7 +1,7 @@
 # Cyber Threat Intelligence — Portfólio de Relatórios
 
 Repositório com relatórios de Cyber Threat Intelligence (CTI) produzidos como exercício prático de
-operacionalização do **Ciclo de Inteligência** (Planejamento e Direcionamento → Coleta → Processamento →
+**operacionalização do Ciclo de Inteligência** (Planejamento e Direcionamento → Coleta → Processamento →
 Análise → Produção e Disseminação → Feedback), aplicado a incidentes reais de segurança cibernética.
 
 Cada relatório segue uma metodologia consistente, incluindo:
@@ -14,8 +14,7 @@ Cada relatório segue uma metodologia consistente, incluindo:
 - **Avaliação de impacto** e **recomendações** acionáveis (Course of Action)
 - **Classificação TLP** (Traffic Light Protocol) da informação divulgada
 
-> Estes relatórios foram elaborados a partir de fontes públicas (OSINT) — reportagens, advisories de
-> fabricantes de segurança (Dragos, Check Point, Mandiant) e órgãos oficiais — como exercício analítico.
+> Estes relatórios foram elaborados a partir de fontes públicas (OSINT) — reportagens, advisories de fabricantes de segurança (Dragos, Check Point, Mandiant) e órgãos oficiais — como exercício analítico.
 > Não contêm informações privilegiadas ou não divulgadas publicamente.
 
 ## Relatórios
@@ -31,9 +30,10 @@ Cada relatório segue uma metodologia consistente, incluindo:
 
 | # | Projeto | Foco |
 |---|---|---|
-| 1 | [Threat Hunting — Adversary Infrastructure](projects/01-threat-hunting-adversary-infrastructure/README.md) | Infraestrutura adversária, C2, DNS, certificados, PCAP e IOCs |
-| 2 | [Threat Attribution Assessment](projects/02-threat-attribution-assessment/README.md) | Atribuição, hipóteses, evidências e confidence assessment |
-| 3 | [Data Science aplicado a CTI](projects/03-data-science-aplicado-a-cti/README.md) | WHOIS, DNS, OSINT, automação, normalização, JSON e pipelines |
+| 01 | [Threat Hunting — Adversary Infrastructure](projects/01-threat-hunting-adversary-infrastructure/) | Infraestrutura adversária, C2, DNS, certificados, PCAP e IOCs |
+| 02 | [Threat Attribution Assessment](projects/02-threat-attribution-assessment/) | Atribuição, hipóteses, evidências e confiança analítica |
+| 03 | [Data Science aplicado a CTI](projects/03-data-science-aplicado-a-cti/) | Automação, dados, correlação e análise aplicada a inteligência |
+| 04 | [SCADA/ICS — Cyber Operations](projects/04-scada-ics-operations/) | OT/IT, Purdue Model, DNP3, análise de tráfego e risco industrial |
 
 ## Metodologia e Frameworks Utilizados
 
@@ -44,9 +44,11 @@ Cada relatório segue uma metodologia consistente, incluindo:
 - **Pyramid of Pain** (David Bianco) — priorização de indicadores por dificuldade de mudança para o adversário
 - **Código do Almirantado (NATO)** — avaliação de confiabilidade da fonte e credibilidade da informação
 - **TLP v2** — classificação de compartilhamento da informação
+- **Purdue Reference Model** — segmentação hierárquica de ambientes industriais
+- **IEC 62443 / NIST SP 800-82 / IEEE 1815** — referências de segurança ICS e DNP3
 
 ## Sobre
 
-Relatórios e projetos elaborados como parte de estudos práticos em Cyber Threat Intelligence, incluindo conteúdos da formação ADINT School.
+Relatórios e projetos elaborados como parte de estudos práticos em Cyber Threat Intelligence, incluindo os módulos de Threat Hunting, Threat Attribution, Data Science aplicada a CTI e SCADA/ICS.
 
-**Aviso legal:** todo o conteúdo operacional do portfólio deve ser baseado em fontes públicas, ambientes de laboratório ou ativos explicitamente autorizados, com fins educacionais e profissionais. Não incluir informações privilegiadas, credenciais, tokens ou dados sensíveis.
+**Aviso legal:** todo o conteúdo é baseado em fontes públicas e/ou ambientes de laboratório autorizados, com fins educacionais e de portfólio profissional. Nenhum teste deve ser realizado contra infraestrutura real sem autorização.

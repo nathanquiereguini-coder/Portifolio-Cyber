@@ -34,6 +34,7 @@ Cada relatório segue uma metodologia consistente, incluindo:
 | 02 | [Threat Attribution Assessment](projects/02-threat-attribution-assessment/) | Atribuição, hipóteses, evidências e confiança analítica |
 | 03 | [Data Science aplicado a CTI](projects/03-data-science-aplicado-a-cti/) | Automação, dados, correlação e análise aplicada a inteligência |
 | 04 | [SCADA/ICS — Cyber Operations](projects/04-scada-ics-operations/) | OT/IT, Purdue Model, DNP3, análise de tráfego e risco industrial |
+| 05 | [Cyber Reporting & Risk Assessment](projects/05-cyber-reporting-and-risk-assessment/) | Evidência, OWASP, Kill Chain, MITRE, risco e recomendações acionáveis |
 
 ## Metodologia e Frameworks Utilizados
 
@@ -46,9 +47,11 @@ Cada relatório segue uma metodologia consistente, incluindo:
 - **TLP v2** — classificação de compartilhamento da informação
 - **Purdue Reference Model** — segmentação hierárquica de ambientes industriais
 - **IEC 62443 / NIST SP 800-82 / IEEE 1815** — referências de segurança ICS e DNP3
+- **OWASP Top 10** — taxonomia para classificação de riscos em aplicações web
+- **Matriz Probabilidade × Impacto** — priorização e justificativa de severidade
 
 ## Sobre
 
-Relatórios e projetos elaborados como parte de estudos práticos em Cyber Threat Intelligence, incluindo os módulos de Threat Hunting, Threat Attribution, Data Science aplicada a CTI e SCADA/ICS.
+Relatórios e projetos elaborados como parte de estudos práticos em Cyber Threat Intelligence, incluindo os módulos de Threat Hunting, Threat Attribution, Data Science aplicada a CTI, SCADA/ICS e elaboração de relatórios de segurança.
 
 **Aviso legal:** todo o conteúdo é baseado em fontes públicas e/ou ambientes de laboratório autorizados, com fins educacionais e de portfólio profissional. Nenhum teste deve ser realizado contra infraestrutura real sem autorização.
